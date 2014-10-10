@@ -16,10 +16,10 @@
 	<INCLURE{fond=inclure/header} />
 	<INCLURE{fond=inclure/nav,env} />
 	
-	<div class="main">
+	<main class="main">
 		[(#REM) Contenu principal : Resultats de la recherche ]
 		<div class="wrapper">
-		<div class="content" id="content">
+		<article class="content" id="content">
 			<p class="arbo"><a href="#URL_SITE_SPIP/"><:accueil_site:></a> &gt; <:info_rechercher:>[ &gt; <strong class="on">(#RECHERCHE)</strong>]</p>
 			
 			[<div class="cartouche">
@@ -111,15 +111,15 @@
 			</div>
 			</B_sites>
 			
-		</div><!--.content-->
+		</article><!--.content-->
 		</div><!--.wrapper-->
 		
 		
-		<div class="aside">
+		<aside class="aside">
 			<INCLURE{fond=inclure/navsub, id_rubrique} />
 			#FORMULAIRE_RECHERCHE
-		</div><!--.aside-->
-	</div><!--.main-->
+		</aside><!--.aside-->
+	</main><!--.main-->
 	
 	<INCLURE{fond=inclure/footer,self=#SELF} />
     

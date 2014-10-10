@@ -17,15 +17,15 @@
 	<INCLURE{fond=inclure/header}{home=oui} />
 	<INCLURE{fond=inclure/nav,env} />
 	
-	<div class="main">
+	<main class="main">
 		<div class="wrapper hfeed">
-		<div class="content" id="content">
+		<article class="content" id="content">
 			[<div class="chapo">(#DESCRIPTIF_SITE_SPIP)</div>]
 			<INCLURE{fond=inclure/recents,env,ajax} />
-		</div><!--.content-->
+		</article><!--.content-->
 		</div><!--.wrapper-->
 		
-		<div class="aside">
+		<aside class="aside">
 			<INCLURE{fond=inclure/navsub} />
 			#FORMULAIRE_RECHERCHE
 			
@@ -70,8 +70,8 @@
 			</B_syndic>
 			
 			#FORMULAIRE_INSCRIPTION
-		</div><!--.aside-->
-	</div><!--.main-->
+		</aside><!--.aside-->
+	</main><!--.main-->
 	
 	<INCLURE{fond=inclure/footer,self=#SELF} />
 	

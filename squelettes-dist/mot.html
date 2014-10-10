@@ -20,10 +20,10 @@
 	<INCLURE{fond=inclure/header} />
 	<INCLURE{fond=inclure/nav,env} />
 
-    <div class="main">
+    <main class="main">
 		[(#REM) Contenu principal : contenu du mot-cle ]
 		<div class="wrapper">
-		<div class="content" id="content">
+		<article class="content" id="content">
 			<p class="arbo"><a href="#URL_SITE_SPIP/"><:accueil_site:></a> &gt; <:mots_clefs:><BOUCLE_ariane(GROUPES_MOTS){id_groupe}> &gt; [(#TITRE|couper{80})]</BOUCLE_ariane>[ &gt; <strong class="on">(#TITRE|couper{80})</strong>]</p>
 	
 			<div class="cartouche">
@@ -100,10 +100,10 @@
 	
 			[<div class="notes"><hr />(#NOTES)</div>]
 	
-		</div><!--.content-->
+		</article><!--.content-->
 		</div><!--.wrapper-->
 	
-		<div class="aside">
+		<aside class="aside">
 	
 			<INCLURE{fond=inclure/navsub} />
 			#FORMULAIRE_RECHERCHE
@@ -136,8 +136,8 @@
 			</div>
 			</B_groupes_freres>
 			
-		</div><!--.aside-->
-	</div><!--.main-->
+		</aside><!--.aside-->
+	</main><!--.main-->
 
 	<INCLURE{fond=inclure/footer,self=#SELF} />
 

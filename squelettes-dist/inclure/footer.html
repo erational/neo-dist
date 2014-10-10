@@ -1,4 +1,4 @@
-<div class="footer clearfix">
+<footer class="footer clearfix">
 	<p class="colophon">
 		<BOUCLE_annee(ARTICLES){par date}{0,1}>[(#DATE|annee|!={#VAL{Y}|date}|oui)[(#DATE|annee)]]</BOUCLE_annee>-</B_annee>[(#DATE|annee) ]#NOM_SITE_SPIP
 		<br /><a rel="contents" href="#URL_PAGE{plan}"><:plan_site:></a>[
@@ -9,4 +9,4 @@
 		<a href="#URL_PAGE{backend}" rel="alternate" title="<:syndiquer_site:>">RSS&nbsp;2.0</a>
 	</p>
 	<small class="generator"><a href="http://www.spip.net/" title="<:site_realise_avec_spip:>" class="spip_out"><img src="#CHEMIN{spip.png}" alt="SPIP" /></a></small>
-</div>
+</footer>

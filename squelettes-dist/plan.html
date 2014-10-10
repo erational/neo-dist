@@ -17,9 +17,9 @@
 	<INCLURE{fond=inclure/header} />
 	<INCLURE{fond=inclure/nav,env} />
 	
-	<div class="main">
+	<main class="main">
 		<div class="wrapper">
-		<div class="content" id="content">
+		<article class="content" id="content">
 			<p class="arbo"><a href="#URL_SITE_SPIP/"><:accueil_site:></a> &gt; <strong class="on"><:plan_site:></strong></p>
 		
 			<div class="cartouche">
@@ -28,14 +28,14 @@
 			
 			#MODELE{plan}
 	
-		</div><!--.content-->
+		</article><!--.content-->
 		</div><!--.wrapper-->
 	
-		<div class="aside">
+		<aside class="aside">
 			<INCLURE{fond=inclure/navsub} />
 			#FORMULAIRE_RECHERCHE
-		</div><!--.aside-->
-	</div><!--.main-->
+		</aside><!--.aside-->
+	</main><!--.main-->
 
 	<INCLURE{fond=inclure/footer,self=#SELF} />
 

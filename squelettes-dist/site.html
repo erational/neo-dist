@@ -22,10 +22,10 @@
 	<INCLURE{fond=inclure/header} />
 	<INCLURE{fond=inclure/nav,id_rubrique,env} />
 	
-    <div class="main">
+    <main class="main">
 		[(#REM) Contenu principal : affichage du site reference ]
 		<div class="wrapper">
-		<div class="content" id="content">
+		<article class="content" id="content">
 			<p class="arbo"><a href="#URL_SITE_SPIP/"><:accueil_site:></a><BOUCLE_ariane(HIERARCHIE){id_syndic}> &gt; <a href="#URL_RUBRIQUE">[(#TITRE|couper{80})]</a></BOUCLE_ariane>[ &gt; <strong class="on">(#NOM_SITE|couper{80})</strong>]</p>
 	
 			<div class="cartouche">
@@ -57,10 +57,10 @@
 	
 			[<div class="notes"><hr />(#NOTES)</div>]
 	
-		</div><!--.content-->
+		</article><!--.content-->
 		</div><!--.wrapper-->
 	
-		<div class="aside">
+		<aside class="aside">
 	
 			<INCLURE{fond=inclure/navsub, id_rubrique} />
 			#FORMULAIRE_RECHERCHE
@@ -91,8 +91,8 @@
 			</div>
 			</B_mots>
 			
-		</div><!--.aside-->
-	</div><!--.main-->
+		</aside><!--.aside-->
+	</main><!--.main-->
 
 	<INCLURE{fond=inclure/footer,self=#SELF} />
 
