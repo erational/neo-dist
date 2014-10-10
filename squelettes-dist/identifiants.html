@@ -1,17 +1,20 @@
 #CACHE{0}
 [(#HTTP_HEADER{Content-Type: text/html[; charset=(#CHARSET)]})]
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="#LANG" lang="#LANG" dir="#LANG_DIR">
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html dir="#LANG_DIR" lang="#LANG" class="lt-ie9 lt-ie8 lt-ie7 [(#LANG_DIR)][ (#LANG)] no-js"> <![endif]-->
+<!--[if IE 7]>         <html dir="#LANG_DIR" lang="#LANG" class="lt-ie9 lt-ie8 [(#LANG_DIR)][ (#LANG)] no-js"> <![endif]-->
+<!--[if IE 8]>         <html dir="#LANG_DIR" lang="#LANG" class="lt-ie9 [(#LANG_DIR)][ (#LANG)] no-js"> <![endif]-->
+<html dir="#LANG_DIR" lang="#LANG" class="[(#LANG_DIR)][ (#LANG)] no-js">
 <head>
-<title><:pass_vousinscrire:> - [(#NOM_SITE_SPIP|textebrut)]</title>
-<meta http-equiv="Content-Type" content="text/html; charset=#CHARSET" />
-<meta name="robots" content="none" />
-<meta name="viewport" content="width=device-width" />
-<link rel="stylesheet" href="[(#VAL{reset.css}|find_in_theme|direction_css)]" type="text/css" />
-<link rel="stylesheet" href="[(#VAL{clear.css}|find_in_theme|direction_css)]" type="text/css" />
-<link rel="stylesheet" href="[(#VAL{minipres.css}|find_in_theme|direction_css)]" type="text/css" />
-<INCLURE{fond=inclure/head}>
-<meta name="generator" content="SPIP[ (#SPIP_VERSION)]" />
+  <INCLURE{fond=inclure/head}>
+  <title><:pass_vousinscrire:> - [(#NOM_SITE_SPIP|textebrut)]</title>
+  <meta http-equiv="Content-Type" content="text/html; charset=#CHARSET" />
+  <meta name="robots" content="none" />
+  <meta name="viewport" content="width=device-width" />
+  <link rel="stylesheet" href="[(#VAL{reset.css}|find_in_theme|direction_css)]" type="text/css" />
+  <link rel="stylesheet" href="[(#VAL{clear.css}|find_in_theme|direction_css)]" type="text/css" />
+  <link rel="stylesheet" href="[(#VAL{minipres.css}|find_in_theme|direction_css)]" type="text/css" />
+  <meta name="generator" content="SPIP[ (#SPIP_VERSION)]" />
 </head>
 <body>
 <div id='minipres'>

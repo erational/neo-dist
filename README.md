@@ -25,3 +25,9 @@ point -:  performance pour les sites ne configurant rien (pas de compression act
 - un appel à un ficher unique (tinytypo.css regroupant tout)
 point +:  performance pour les sites ne configurant rien
 point -: peu pédagogique
+
+roadmap
+--------
+- passer en véritable HTML5
+- simplifier 
+- passer en responsive
